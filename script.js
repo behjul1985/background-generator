@@ -1,8 +1,11 @@
 var _ = require('lodash');
 console.log(_);
 
+//test using a loadash funcion _.without
 var array = [1,2,3,4,5,6];
 console.log('answer:', _.without(array, 3));
+
+//ignore above
 
 var css = document.querySelector("h3");
 var color1 = document.querySelector(".color1");
